@@ -1086,9 +1086,10 @@
 	font-size: 0;
 }
 
+/* Change Image Size --------------------------------------------------------*/
 .box-item .image a img {
 	position: relative;
-	width: 100%;
+	width: 60%;
 	height: auto;
 }
 
