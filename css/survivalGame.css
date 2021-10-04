@@ -1,0 +1,40 @@
+
+
+body{
+    /* background-color: red; */
+    color:black;
+}
+
+
+div.container {
+    display:grid; 
+    grid-gap:5px;
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-template-rows: repeat(3,500px)
+}
+
+.progress-bar { 
+    height: 20px;
+    background:red; 
+    width: 0px;
+    text-align: center;
+    border: 2px solid gray;
+  }
+
+.button { 
+    background:grey; 
+    width:50%; 
+    height:30px;
+}
+
+.disabledbutton { 
+    color:lightgrey; 
+    width:50%; 
+    height:30px; 
+    background-color:white;
+}
+
+.pp{
+    width : 600px;
+    background-color: #e0e0e0;
+}
